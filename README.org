@@ -1,0 +1,14 @@
+* Puppet aggregate facts
+Created to solve a bug in Puppet Facter, which turned out to not be a bug at
+all.
+
+** Usage
+#+begin_src sh
+docker-compose up -d
+docker-compose logs -ft --tail=5
+#+end_src
+
+Once it has settled you can start the Puppet agent using the ~up~ command:
+#+begin_src sh
+docker-compose up -d
+#+end_src
